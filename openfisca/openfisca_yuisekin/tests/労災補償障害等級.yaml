@@ -1,0 +1,27 @@
+- name: 第１級
+  period: 2022-06-25
+  input:
+    障害等級: "第1級"
+  output:
+    労災補償重度障害者該当: true
+
+- name: 第２級
+  period: 2022-06-25
+  input:
+    障害等級: "第2級"
+  output:
+    労災補償重度障害者該当: true
+
+- name: 第3級重度
+  period: 2022-06-25
+  input:
+    障害等級: "第3級重度"
+  output:
+    労災補償重度障害者該当: true
+
+- name: 第３級
+  period: 2022-06-25
+  input:
+    障害等級: "第3級"
+  output:
+    労災補償重度障害者該当: false
